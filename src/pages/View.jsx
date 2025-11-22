@@ -122,7 +122,7 @@ function View() {
         <div className="col-md-3"></div>
       </div>
 
-      {/* Material-UI Edit Modal */}
+      {/* Modal */}
       <Modal open={openModal} onClose={handleCloseModal} aria-labelledby="edit-modal-title">
         <Box sx={modalStyle}>
           <h4 id="edit-modal-title" className='mb-4 fw-bold'>Edit Details</h4>

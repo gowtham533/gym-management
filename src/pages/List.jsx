@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { MdDeleteOutline } from "react-icons/md";
 import { FaEdit } from "react-icons/fa";
 import { Tooltip } from '@mui/material';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { getAllUsersAPI, deleteUserAPI } from '../services/allAPI';
 
 function List() {
@@ -82,7 +82,9 @@ function List() {
               </tbody>
             </table>
           </div>
-          <div className="col-md-2"></div>
+          <div className="col-md-2">
+            <Link to={'/form'} className='btn btn-outline-danger'>Add new</Link>
+          </div>
         </div>
       </div>
     </div>
