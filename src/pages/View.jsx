@@ -31,8 +31,7 @@ function View() {
         setEditData(response.data);
       }
     } catch (error) {
-      console.error('Error fetching user data:', error);
-      alert('Failed to load user data');
+      console.error(error);
     }
   };
 
@@ -58,8 +57,7 @@ function View() {
         handleCloseModal();
       }
     } catch (error) {
-      console.error('Error updating user data:', error);
-      alert('Failed to update details');
+      console.error(error);
     }
   };
 

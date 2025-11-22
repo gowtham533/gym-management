@@ -20,7 +20,7 @@ function List() {
         setUsers(response.data);
       }
     } catch (error) {
-      console.error('Error fetching users:', error);
+      console.error( error);
     }
   };
 
@@ -35,8 +35,7 @@ function List() {
           fetchAllUsers();
         }
       } catch (error) {
-        console.error('Error deleting user:', error);
-        alert('Failed to delete user');
+        console.error(error);
       }
     }
   };
