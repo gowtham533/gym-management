@@ -74,10 +74,7 @@ function View() {
   }
 
   return (
-    <div className="container-fluid" style={{
-      backgroundImage: "url('/public/formbg.jpeg')",
-      backgroundSize: 'cover',
-      minHeight: '100vh'
+    <div className="container-fluid" style={{backgroundImage: "url('/public/formbg.jpeg')",backgroundSize: 'cover',minHeight: '100vh'
     }}>
       <div className="row my-5">
         <div className="col-md-3"></div>
@@ -95,26 +92,11 @@ function View() {
             <h4><b>Goal:</b> {userData.goal}</h4>
 
             <div className='d-flex align-items-center justify-content-between'>
-              <button 
-                className="btn btn-outline-danger mt-3"
-                onClick={handleOpenModal}
-              >
-                Edit
-              </button>
+              <button className="btn btn-outline-danger mt-3" onClick={handleOpenModal}>Edit</button>
               
-              <button 
-                className="btn btn-outline-dark mt-3 ms-2"
-                onClick={() => navigate('/list')}
-              >
-                View List
-              </button>
+              <button className="btn btn-outline-dark mt-3 ms-2" onClick={() => navigate('/list')}>View List</button>
 
-              <button 
-                className="btn btn-outline-success mt-3 ms-2"
-                onClick={() => navigate('/form')}
-              >
-                Back to Home
-              </button>
+              <button className="btn btn-outline-success mt-3 ms-2" onClick={() => navigate('/form')}>Back to Home</button>
             </div>
           </div>
         </div>

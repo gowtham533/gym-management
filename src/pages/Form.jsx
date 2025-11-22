@@ -42,7 +42,7 @@ function Form() {
   };
 
   return (
-    <div style={{ backgroundImage: "url('/public/formbg.jpeg')",backgroundSize: 'cover',minHeight: '100vh',display: 'flex',justifyContent: 'center',alignItems: 'center'}}>
+    <div style={{ backgroundImage: "url('/formbg.jpeg')",backgroundSize: 'cover',minHeight: '100vh',display: 'flex',justifyContent: 'center',alignItems: 'center'}}>
       <div className='text-white border rounded p-5 d-flex m-5 w-50 flex-column' style={{ backgroundColor: 'rgba(255,255,255,0.8)' }}>
         <h2 className='text-center text-dark fw-bold'>Registration Form</h2>
 

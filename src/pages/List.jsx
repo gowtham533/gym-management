@@ -83,7 +83,7 @@ function List() {
             </table>
           </div>
           <div className="col-md-2">
-            <Link to={'/form'} className='btn btn-outline-danger'>Add new</Link>
+            <Link to={'/form'} className='btn btn-outline-danger m-5'>Add new</Link>
           </div>
         </div>
       </div>

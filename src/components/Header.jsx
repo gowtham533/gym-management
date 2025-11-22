@@ -25,7 +25,7 @@ function Header() {
             aria-label="menu"
             sx={{ mr: 2 }}
           >
-            <img width={'60px'} src="./public/gym logo.png" alt="logo" />
+            <img width={'60px'} src="/gym logo.png" alt="logo" />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link to={'/'} className='text-white text-decoration-none fw-bold'>MUSCLE FORGE</Link>

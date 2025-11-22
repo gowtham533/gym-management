@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 function Home() {
   return (
     <>
-        <section style={{width:'100%',height:'100vh',backgroundImage:"url('public/gym bg.jpeg')",backgroundAttachment:'fixed',backgroundPosition:'top',backgroundSize:'cover'}} 
+        <section style={{width:'100%',height:'100vh',backgroundImage:"url('/gym bg.jpeg')",backgroundAttachment:'fixed',backgroundPosition:'top',backgroundSize:'cover'}} 
         className='container-fluid row align-items-center'>
         <div className="row">
           <div className="col-md-4"></div>
@@ -36,7 +36,7 @@ function Home() {
       </div>
       <div className="col-md-1"></div>
       <div className="col-md-5">
-        <img src="./public/gym logo.png" alt="" />
+        <img src="/gym logo.png" alt="" />
       </div>
       </div>
       </section>
